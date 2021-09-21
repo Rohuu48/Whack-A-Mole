@@ -1,0 +1,16 @@
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.mole-board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 310px;
+  width: 310px;
+}
+
+.mole {
+  background-color: black;
+}
