@@ -6,15 +6,20 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Whack a Mole</h1>
-    <button id="easy">Easy</button>
-    <button id="medium">Medium</button>
-    <button id="hard">Hard</button>
     <div>
-      <button id="start">Start Game</button>
+      <h1>Whack a Mole</h1>
+      <h2>Select difficulty level</h2>
+      <button id="easy">Easy</button>
+      <button id="medium">Medium</button>
+      <button id="hard">Hard</button>
+      <div>
+        <p>To start the game, select a difficulty level first.</p>
+        <button id="start" disabled>Start Game</button>
+      </div>
+      <h3 id="score">Score: 0</h3>
+      <h3 id="high-score">High Score: 0</h3>
+      <h3 id="seconds-left"></h3>
     </div>
-    <h3>Score:</h3>
-    <h3>Seconds Left:</h3>
 
     <div class="mole-board"></div>
   </body>
